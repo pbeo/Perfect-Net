@@ -35,8 +35,8 @@ let package = Package(
     name: "PerfectNet",
     targets: [],
     dependencies: [
-        .Package(url: "https://github.com/PerfectlySoft/Perfect-OpenSSL.git", versions: Version(0,0,0)..<Version(10,0,0)),
-        .Package(url: "https://github.com/PerfectlySoft/Perfect-Thread.git", versions: Version(0,0,0)..<Version(10,0,0))
+        .Package(url: "https://github.com/pbeo/Perfect-OpenSSL.git", versions: Version(0,0,0)..<Version(10,0,0)),
+        .Package(url: "https://github.com/pbeo/Perfect-Thread.git", versions: Version(0,0,0)..<Version(10,0,0))
     ],
     exclude: []
 )
